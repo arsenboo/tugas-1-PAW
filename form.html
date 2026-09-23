@@ -1,0 +1,166 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Arsenanda Gilang Permatasari">
+    <meta name="keyword" content="Belajar HTML, Belajar Web">
+    <meta name="description" content="Praktikum modul 1">
+    <meta name="robots" content="index, follow">
+    <title>Form Registrasi</title>
+</head>
+
+<body>
+    <h1>Form Registrasi</h1>
+    <form action="" menthod="post">
+        <fieldset>
+            <legend>Biodata</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="fname">Nama Mahasiswa</label><br>
+                    </td>
+                    <td>
+                        :
+                        <input type="text" name="text_form" size="20" placeholder="Nama Anda"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="lname">No Induk Mahasiswa (NIM)</label><br>
+                    </td>
+                    <td>
+                        :
+                        <input type="text" name="text_form" size="20" placeholder="12345678910"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="lname">Alamat Mahasiswa</label><br>
+                    </td>
+                    <td>
+                        :
+                        <textarea name="textarea_form" cols="30" rows="5" placeholder="Ini Textarea"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tanggal Lahir</td>
+                    <td>
+                        :
+                        <select name="tgl">
+                            <option value="01">01</option>
+                        </select>
+                        <select name="bulan">
+                            <option value="Januari">Januari</option>
+                        </select>
+                        <select name="tahun">
+                            <option value="2026">2026</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for>Jenis Kelamin</label>
+                    </td>
+                    <td>
+                        :
+                        <input type="radio" name="gender" value="Pria" id="Pria" checked><label for="Pria">Pria</label>
+                        <input type="radio" name="gender" value="Wanita" id="Wanita"><label for="Wanita">Wanita</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for>Upload Foto</label>
+                    </td>
+                    <td>
+                        :
+                        <input type="file" name="file"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for>URL Website</label>
+                    </td>
+                    <td>
+                        :
+                        <input type="text" name="text_form" size="20" placeholder="URL Website Anda"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <Label for> Perguruan Tinggi</Label>
+                    </td>
+                    <td>:
+                        <input type="text" name="text_form" size="20"></p>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>Info Akun</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for>Email</label>
+                    </td>
+                    <td>
+                        :
+                        <input type="text" name="text_form" size="20" placeholder="Email Anda"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for>Username</label>
+                    </td>
+                    <td>
+                        :
+                        <input type="text" name="text_form" size="20" placeholder="Username Anda"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for>Password</label>
+                    </td>
+                    <td>
+                        :
+                        <input type="text" name="text_form" size="20" placeholder="Password Anda"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for>Ulangi Password</label>
+                    </td>
+                    <td>
+                        :
+                        <input type="text" name="text_form" size="20" placeholder="Password Anda"></p>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Kemampuan Dasar</legend>
+            <table>
+                <tr>
+                    <input type="checkbox" name="HTML" value="HTML" id="HTML"><label for="HTML">HTML</label>
+                    <input type="checkbox" name="CSS" value="CSS" id="CSS"><label for="CSS">CSS</label>
+                    <input type="checkbox" name="Javascript" value="Javascript" id="Javascript"><label
+                        for="Javascript">Javascript</label>
+                    <input type="checkbox" name="PHP" value="PHP" id="PHP"><label for="PHP">PHP</label>
+                    <input type="checkbox" name="MySQL" value="MySQL" id="MySQL"><label for="MySQL">MySQL</label>
+                    <input type="checkbox" name="Laravel" value="Laravel" id="Laravel"><label
+                        for="Laravel">Laravel</label>
+                    <input type="checkbox" name="React Native" value="React Native" id="React Native"><label
+                        for="React Native">React Native</label>
+                </tr>
+            </table>
+        </fieldset>
+        <p>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Simpan">
+            <input type="button" value="Button" onclick="">
+        </p>
+</body>
+
+</html>
